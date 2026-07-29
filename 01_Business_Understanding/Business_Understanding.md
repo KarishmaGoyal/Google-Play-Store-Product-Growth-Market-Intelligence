@@ -1,33 +1,98 @@
-Google Play Store Product Growth & Market Intelligence
-1. Business Background
+# Business Understanding
 
-Google Play Store hosts millions of applications across multiple categories, pricing models, and user segments. Product teams require data-driven insights to understand marketplace performance, customer behaviour, and monetisation opportunities in order to improve user experience, developer success, and overall business growth.
+## Project Title
 
-2. Business Problem
+**Google Play Store Product Growth & Marketplace Intelligence**
 
-The Google Play Store contains thousands of competing applications, making it challenging to identify the factors driving user adoption, engagement, ratings, and commercial success. Without a structured analytical approach, product managers may struggle to prioritise category investments, optimise pricing strategies, and improve marketplace performance.
+---
 
-3. Project Objective
+# 1. Business Background
 
-Develop a business intelligence solution to analyse application performance, customer behaviour, marketplace competition, and monetisation trends by transforming raw application data into actionable business insights and strategic recommendations.
+Google Play Store is one of the world's largest digital application marketplaces, hosting millions of applications across diverse categories, pricing models, and customer segments. As competition within the marketplace continues to increase, product teams require data-driven insights to understand customer behaviour, application performance, market trends, and monetisation opportunities in order to improve user experience, support developer success, and drive sustainable business growth.
 
-4. Stakeholders
+---
 
-Primary Stakeholders
+# 2. Business Problem
 
-Product Manager
-Business Analyst
-Category Manager
-Growth Manager
+The Google Play Store contains a vast number of competing applications, making it difficult for product managers and business stakeholders to identify the factors influencing application success. Without a structured analytical approach, important business questions regarding user acquisition, customer engagement, pricing strategies, product performance, and marketplace competition remain unanswered, limiting effective product and business decision-making.
 
-Secondary Stakeholders
+---
 
-Executive Leadership
-Marketing Team
-App Developers
-5. Business Goals
-Understand factors influencing application success.
-Evaluate category performance and competitive landscape.
-Analyse customer engagement and user behaviour.
-Assess monetisation strategies.
-Support data-driven product and business decisions.
+# 3. Project Objective
+
+Develop an end-to-end business analytics solution that transforms Google Play Store application data into actionable business insights by analysing product performance, customer behaviour, marketplace competitiveness, and monetisation strategies to support strategic decision-making.
+
+---
+
+# 4. Stakeholders
+
+### Primary Stakeholders
+
+- Product Managers
+- Business Analysts
+- Category Managers
+- Growth Managers
+
+### Secondary Stakeholders
+
+- Executive Leadership
+- Marketing Team
+- App Developers
+- Strategy Team
+
+---
+
+# 5. Business Goals
+
+- Evaluate application performance across different categories.
+- Understand the factors influencing user adoption and engagement.
+- Analyse marketplace competitiveness and identify growth opportunities.
+- Evaluate pricing and monetisation strategies.
+- Support product optimisation through data-driven recommendations.
+- Enable informed business decisions using analytical insights.
+
+---
+
+# 6. Project Scope
+
+### In Scope
+
+- Application performance analysis
+- Customer behaviour analysis
+- Marketplace analysis
+- Pricing and monetisation analysis
+- Product KPI reporting
+- Interactive dashboard development
+- Business insights and strategic recommendations
+
+### Out of Scope
+
+- Mobile application development
+- Revenue forecasting using machine learning
+- Customer-level behavioural prediction
+- Real-time marketplace monitoring
+
+---
+
+# 7. Success Criteria
+
+The project will be considered successful if it:
+
+- Identifies the key drivers of application success.
+- Measures product performance using business KPIs.
+- Discovers opportunities for marketplace growth.
+- Provides actionable recommendations supported by data.
+- Delivers an interactive Power BI dashboard for executive decision-making.
+
+---
+
+# 8. Expected Deliverables
+
+- Business Requirement Analysis
+- Dataset Assessment
+- Data Cleaning and Transformation
+- SQL Business Analysis
+- Power BI Dashboard
+- Business Insights
+- Strategic Recommendations
+- Executive Summary Report
