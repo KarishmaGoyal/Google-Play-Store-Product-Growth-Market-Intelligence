@@ -48,6 +48,11 @@ The dataset will be prepared using Power Query and SQL through the following ste
 - Validate the final dataset before loading into Power BI.
 
 ---
+## Data Quality Issues
+
+- One corrupted record identified in the dataset.
+- The row contains shifted values, resulting in invalid data types and missing values across multiple columns.
+- This record was excluded from further analysis because it could not be reliably reconstructed.
 
 # Expected Output
 
