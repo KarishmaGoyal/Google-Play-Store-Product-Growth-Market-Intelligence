@@ -96,3 +96,35 @@ The project will be considered successful if it:
 - Business Insights
 - Strategic Recommendations
 - Executive Summary Report
+
+- ---
+
+# 9. Business KPIs
+
+The following Key Performance Indicators (KPIs) will be used to evaluate product performance:
+
+- Total Applications
+- Total Installs
+- Average Rating
+- Total Reviews
+- Average Price of Paid Applications
+- Free vs Paid Application Distribution
+- Category Market Share
+- Customer Engagement Rate
+- Average Installs per Category
+- Top Performing Applications
+- ---
+
+# 10. Analytical Approach
+
+The project follows a structured analytics lifecycle:
+
+1. Business Understanding
+2. Business Question Identification
+3. Data Collection
+4. Data Cleaning & Transformation (Power Query)
+5. Exploratory Data Analysis (SQL)
+6. KPI Development (DAX)
+7. Dashboard Development (Power BI)
+8. Business Insights
+9. Strategic Recommendations
