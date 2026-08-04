@@ -1,40 +1,74 @@
-# Data Quality Assessment 
+# 📋 Data Quality Assessment
 
-## Objective The purpose of this assessment is to evaluate the quality, completeness, and reliability of the Google Play Store dataset before performing exploratory data analysis, SQL analysis, and dashboard development.
+## 🎯 Objective
 
----
-# Data Quality Checks The following quality checks will be performed: - Missing value analysis - Duplicate record identification - Data type validation - Inconsistent value detection - Outlier identification - Invalid or incorrect records - Formatting standardisation --- # Data Quality Issues Identified This section will be updated after inspecting the dataset.
-
-| Quality Issue | Observation | Resolution |
-|---------------|-------------|------------|
-| Missing Values | Missing values identified in selected attributes (e.g., Rating, Current Version, Android Version). | Retained or handled appropriately based on business relevance. |
-| Duplicate Records | Duplicate application records identified. | Removed duplicate applications using the **App** column as the unique identifier. |
-| Incorrect Data Types | Numeric and date fields stored as text. | Converted to appropriate numeric and date data types. |
-| Inconsistent Formatting | Currency symbols, commas, and mixed units identified. | Standardised values to ensure consistency for analysis. |
-| Outliers | Distribution reviewed using Power Query profiling tools. | Retained unless confirmed as invalid business records. |
-| Invalid Values | One corrupted record with shifted column values detected. | Removed from the dataset due to data integrity issues. |
----
-
-# Data Cleaning Strategy
-
-The dataset will be prepared using Power Query and SQL through the following steps:
-
-- Remove duplicate records.
-- Handle missing values where appropriate.
-- Standardise data formats.
-- Convert columns to appropriate data types.
-- Clean text fields by removing unwanted characters.
-- Transform numerical fields for analysis.
-- Validate the final dataset before loading into Power BI.
+The purpose of this assessment is to evaluate the **quality, completeness, consistency, and reliability** of the Google Play Store dataset before performing exploratory data analysis, SQL analysis, and Power BI dashboard development.
 
 ---
-## Data Quality Issues
 
-- One corrupted record identified in the dataset.
-- The row contains shifted values, resulting in invalid data types and missing values across multiple columns.
-- This record was excluded from further analysis because it could not be reliably reconstructed.
+# 🔍 Data Quality Checks
 
-# Expected Output
+The following quality checks were conducted to assess the suitability of the dataset for analysis:
 
-A clean, validated, and analysis-ready dataset suitable for SQL analysis, business intelligence reporting, dashboard development, and strategic decision-making.
+- ✅ Missing Value Analysis
+- ✅ Duplicate Record Identification
+- ✅ Data Type Validation
+- ✅ Inconsistent Value Detection
+- ✅ Outlier Identification
+- ✅ Invalid Record Detection
+- ✅ Data Formatting Standardisation
 
+---
+
+# ⚠️ Data Quality Issues Identified
+
+| **Quality Issue** | **Observation** | **Resolution** |
+|:------------------|:----------------|:---------------|
+| Missing Values | Missing values identified in selected attributes (e.g., **Rating**, **Current Version**, **Android Version**). | Retained or handled appropriately based on business relevance. |
+| Duplicate Records | Duplicate application records were identified. | Removed duplicate applications using the **App** column as the unique identifier. |
+| Incorrect Data Types | Numeric and date fields were stored as text. | Converted columns to the appropriate numeric and date data types. |
+| Inconsistent Formatting | Currency symbols (`$`), commas, and mixed units were identified. | Standardised values to ensure consistency for analysis. |
+| Outliers | Data distribution reviewed using **Power Query Column Profiling** tools. | Retained unless confirmed as invalid business records. |
+| Invalid Values | One corrupted record containing shifted column values was detected. | Removed from the dataset to maintain data integrity. |
+
+---
+
+# 🛠️ Data Cleaning Strategy
+
+The dataset was prepared using **Power Query** through the following ETL activities:
+
+- Removed duplicate application records.
+- Assigned appropriate data types to all columns.
+- Standardised numerical and date formats.
+- Cleaned text fields by removing unwanted characters.
+- Converted numerical fields into analysis-ready format.
+- Handled missing and invalid values where appropriate.
+- Validated data quality using **Column Quality**, **Column Distribution**, and **Column Profile**.
+- Removed corrupted records that could not be reliably corrected.
+
+---
+
+# 🚨 Data Integrity Issue
+
+During the data quality assessment, **one corrupted record** was identified.
+
+### Observation
+
+- The row contained shifted column values, resulting in multiple invalid data types and missing values.
+
+### Resolution
+
+- The record was excluded from the dataset because it could not be reliably reconstructed without introducing bias or inaccurate information.
+
+---
+
+# ✅ Expected Output
+
+After completing the ETL process, the dataset is expected to be:
+
+- ✔ Clean and consistent
+- ✔ Free from duplicate application records
+- ✔ Standardised across all data types
+- ✔ Suitable for SQL analysis
+- ✔ Ready for Power BI dashboard development
+- ✔ Reliable for business intelligence and strategic decision-making
