@@ -1,4 +1,4 @@
-**# 📘 SQL Best Practices
+# 📘 SQL Best Practices
 
 ## Objective
 
