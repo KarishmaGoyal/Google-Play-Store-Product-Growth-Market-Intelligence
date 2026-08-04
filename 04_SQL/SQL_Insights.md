@@ -16,7 +16,6 @@ The SQL analysis examined application performance, user adoption, customer engag
 
 ## Finding
 
-> *(Update after executing SQL queries.)*
 
 ### Business Impact
 
@@ -30,7 +29,6 @@ The SQL analysis examined application performance, user adoption, customer engag
 
 ## Finding
 
-> *(Update after executing SQL queries.)*
 
 ### Business Impact
 
@@ -44,7 +42,6 @@ The SQL analysis examined application performance, user adoption, customer engag
 
 ## Finding
 
-> *(Update after executing SQL queries.)*
 
 ### Business Impact
 
@@ -58,7 +55,6 @@ The SQL analysis examined application performance, user adoption, customer engag
 
 ## Finding
 
-> *(Update after executing SQL queries.)*
 
 ### Business Impact
 
@@ -72,7 +68,6 @@ The SQL analysis examined application performance, user adoption, customer engag
 
 ## Finding
 
-> *(Update after executing SQL queries.)*
 
 ### Business Impact
 
@@ -86,7 +81,6 @@ The SQL analysis examined application performance, user adoption, customer engag
 
 ## Finding
 
-> *(Update after executing SQL queries.)*
 
 ### Business Impact
 
